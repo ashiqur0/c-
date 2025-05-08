@@ -19,6 +19,7 @@ int main() {
     cars.push_back("Lamborgini");
 
     // Remove list element
+    cars.pop_front();
     cars.pop_back();
 
     // List size
