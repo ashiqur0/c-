@@ -56,11 +56,23 @@ int main() {
         cout << it6->first << " is: " << it6->second << endl;
     }
 
-    // Algorithm
+    // Algorithm: sort the element ascending order
     vector<string> fruits2 = {"Apple", "Orange", "Cherry", "Banana", "Melon", "Kiwi"};
     sort(fruits2.begin(), fruits2.end());
     for(string fruit : fruits2) {
         cout << fruit << endl;
+    }
+
+    vector<int> number = {5, 4, 8, 6, 3, 9, 2, 7, 0, 1};
+    sort(number.begin(), number.end());
+    for(int num : number) {
+        cout << num << endl;
+    }
+
+    vector<int> n = {5, 4, 8, 6, 3, 9, 2, 7, 0, 1};
+    sort(n.rbegin(), n.rend());
+    for(int a : n) {
+        cout << a << endl;
     }
 
     return 0;
