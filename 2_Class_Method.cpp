@@ -25,15 +25,15 @@ class Dog {
     // void berk(string b);
 
     // way4
-    string berk(string b);
+    string berk(string b);      // method declaration
 };
 // way 2
 // void Dog::berk() {
 //     cout << "woof!" <<endl;
 // }
 
-string Dog::berk(string b) {
-    return b;
+string Dog::berk(string b) {// scop resulation operator ::
+    return b;               // used to define a class method outside
 }
 
 int main() {
@@ -49,7 +49,7 @@ int main() {
 
     // way 3
     // d.berk("woof!");
-    
+
     // way 4
     cout << d.berk("woof!") << endl;
 
