@@ -11,21 +11,47 @@ class student {
     }
 };
 
+class Dog {
+    public:
+    // way 1
+    // void berk() {
+    //     cout << "woof!" << endl;
+    // }
+
+    // way 2
+    // void berk();
+
+    // way3
+    // void berk(string b);
+
+    // way4
+    string berk(string b);
+};
+// way 2
+// void Dog::berk() {
+//     cout << "woof!" <<endl;
+// }
+
+string Dog::berk(string b) {
+    return b;
+}
+
 int main() {
 
-    student s1, s2, s3;
+    student s1;
     s1.name = "Samiul";
     s1.roll = 1;
-
-    s2.name = "Nawshin";
-    s2.roll = 2;
-
-    s3.name = "Simanto";
-    s3.roll = 3;
-
     s1.go();
-    s2.go();
-    s3.go();
+
+    Dog d;
+    // way 1, 2
+    // d.berk();
+
+    // way 3
+    // d.berk("woof!");
+    
+    // way 4
+    cout << d.berk("woof!") << endl;
 
     return 0;
 }
