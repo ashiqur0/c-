@@ -1,5 +1,5 @@
 // sum of odd till n
-
+// learning: continue keyword
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
