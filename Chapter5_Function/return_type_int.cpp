@@ -1,6 +1,7 @@
+//int Type: return an integer value to the calling function.
 #include <bits/stdc++.h>
 using namespace std;
-int sum(int num1, int num2) { //int: return an integer value to the calling function.
+int sum(int num1, int num2) {
     return num1 + num2;
 }
 int subtract(int num1, int num2) { 
