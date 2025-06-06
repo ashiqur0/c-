@@ -1,14 +1,15 @@
+// Temperature Converter: Fahrenheit to Celsius
 #include <bits/stdc++.h>
 using namespace std;
-double div(double n1, double n2) {
-    return n1 / n2;
+double FtoC(double F) {
+  double C = (F-32)*5/9;
+  return C;
 }
 int main() {
 
-    double a = 10, b = 3;
-
-    double division = div(a, b);
-    cout << fixed << setprecision(2) << division << endl;
+    double tempF = 98.0;
+    cout << "Temperature in Fahrenheit: " << tempF << endl;
+    cout <<  "Temperature in Celcius: " << FtoC(tempF) << endl;
 
   return 0;
 }

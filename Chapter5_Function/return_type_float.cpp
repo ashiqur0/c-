@@ -6,7 +6,7 @@ float pi() {
 int main() {
 
     float PI = pi();
-    cout << PI << endl;
+    cout << fixed << setprecision(2) << PI << endl;
 
   return 0;
 }
