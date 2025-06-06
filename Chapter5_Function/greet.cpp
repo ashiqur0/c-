@@ -1,3 +1,5 @@
+// Greet: Greet a person with their name
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -7,7 +9,8 @@ void greet(string name) {
 
 int main() {
 
-  string name = "Masud Rana";
+  string name;
+  cin >> name;
   greet(name);
 
   return 0;
