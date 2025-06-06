@@ -3,9 +3,18 @@ using namespace std;
 
 int max(int a, int b, int c) {
     if(a > b) {
-        return max(a, c);
+        if(a > c) {
+            return a;
+        } else {
+            return c;
+        }
+    } else {
+        if(b > c) {
+            return b;
+        } else {
+            return c;
+        }
     }
-    return max(b, c);
 }
 
 int main() {
