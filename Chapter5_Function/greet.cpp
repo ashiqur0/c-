@@ -1,4 +1,4 @@
-// Greet: Greet a person with their name
+// Greet: Greet a person by their name
 
 #include <bits/stdc++.h>
 using namespace std;
