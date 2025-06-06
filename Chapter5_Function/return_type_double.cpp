@@ -9,7 +9,7 @@ int main() {
 
     double tempF = 98.0;
     cout << "Temperature in Fahrenheit: " << tempF << endl;
-    cout <<  "Temperature in Celcius: " << FtoC(tempF) << endl;
+    cout << "Temperature in Celcius: " << FtoC(tempF) << endl;
 
   return 0;
 }
