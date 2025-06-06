@@ -12,4 +12,4 @@ int main() {
     cout << fixed << setprecision(2) << "Temperature in Celcius: " << FtoC(tempF) << endl;
 
   return 0;
-}
+} 
