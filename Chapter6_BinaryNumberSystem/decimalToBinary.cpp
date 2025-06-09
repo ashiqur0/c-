@@ -1,4 +1,4 @@
-// convert a number from Decimal to Binary (2 to 8)
+// convert a number from Decimal to Binary (1 to N)
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -15,8 +15,8 @@ int toBinary(int n) {
 
 int main() {
 
-    int n = 8;
-    for(int i = 2; i <= 8; i++) {
+    int n = 10;
+    for(int i = 1; i <= n; i++) {
         cout << toBinary(i) << endl;
     }
 
