@@ -1,26 +1,18 @@
-// Find a character is Upper-case or Lower-case 
+// Convert a Letter From Lower-case to Upper-case
 #include <bits/stdc++.h>
 using namespace std;
 
-bool isUpper(char ch) {
-    if(ch >= 65 && ch <= 90) {
-        return true;
-    }
-
-    return false;
+char toUpper(char ch) {
+    return ch -= 32;
 }
 
 int main() {
 
-    // char ch = 'A';
-    char ch;
-    cin >> ch;
+    char ch = 'a';
+    // char ch;
+    // cin >> ch;
 
-    if(isUpper(ch)) {
-        cout << ch << " is upper-case character" << endl;
-    } else {
-        cout << ch << " is lower-case character" << endl;
-    }
+    cout << toUpper(ch) << endl;
 
   return 0;
 }
