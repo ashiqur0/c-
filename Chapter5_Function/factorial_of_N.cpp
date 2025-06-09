@@ -1,4 +1,4 @@
-// Calculate The Factorial of N number
+// Calculate The Factorial of N
 #include <bits/stdc++.h>
 using namespace std;
 long long factorial(int n) {
