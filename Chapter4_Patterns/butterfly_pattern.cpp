@@ -1,6 +1,6 @@
 /*
 Pattern: Butterfly Pattern
-
+Example 1: n = 4
 *             *
 * *         * *
 * * *     * * *
@@ -33,7 +33,7 @@ int main() {
         }
         cout << endl;        
     }
-    
+
     for(int i = 0; i < n; i++) {
         for(int j = n - i; j > 0; j--) {
             cout << " *";
