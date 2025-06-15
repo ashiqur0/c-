@@ -5,6 +5,7 @@ Bitwise Operator: Bitwise AND
 1 0 = 0
 1 1 = 1
 
+Example 1: 4 & 8
 4 = 0100
 8 = 1000
 &_______
