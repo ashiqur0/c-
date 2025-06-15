@@ -5,7 +5,7 @@ Bitwise Operator: Bitwise Left Shif (<<)
 1 << 2 = 100
 101 << 2 = 10100
 
-Formula: a >> b = a * 2^b
+Formula: a >> b = a / 2^b
 
 Example 1: 2 << 3
 1 = 10 in Binary
