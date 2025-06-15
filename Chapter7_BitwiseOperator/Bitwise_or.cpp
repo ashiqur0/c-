@@ -1,9 +1,9 @@
 /*
-Bitwise Operator: Bitwise OR
-0 0 = 0
-0 1 = 1
-1 0 = 1
-1 1 = 1
+Bitwise Operator: Bitwise OR (|)
+0 | 0 = 0
+0 | 1 = 1
+1 | 0 = 1
+1 | 1 = 1
 
 Example 1: 4 | 8
 4 = 0100
