@@ -1,3 +1,16 @@
+/*
+Bitwise Operator: Bitwise OR
+0 0 = 0
+0 1 = 1
+1 0 = 1
+1 1 = 1
+
+4 = 0100
+8 = 1000
+&_______
+    1100 = 12 in Decimal
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
