@@ -5,6 +5,8 @@ Bitwise Operator: Bitwise Right Shif (<<)
 100 >> 2 = 1
 1010 >> 2 = 10
 
+Formula: a >> b = a / 2^b
+
 Example 1: 20 >> 2
 20 = 10100 in Binary
 10100 >> 2 = 101 = 5 in decimal
