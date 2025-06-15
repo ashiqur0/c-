@@ -1,5 +1,5 @@
 /*
-Bitwise Operator: Operator Precedence and Associativity
+Operator: Operator Precedence and Associativity
 
 Associativity           Precedence
 Right to Left           !, ~, ++, --
