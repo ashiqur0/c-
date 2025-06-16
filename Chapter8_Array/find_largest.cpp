@@ -1,4 +1,4 @@
-// Array : Find smallest
+// Array : Find largest
 
 #include <bits/stdc++.h>
 using namespace std;
