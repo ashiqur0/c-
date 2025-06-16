@@ -11,8 +11,6 @@ void swap_max_min(int arr[], int size) {
             min_arr = arr[i];
             min_index = i;
         }        
-    }
-    for(int i = 0; i < size; i++) {
         if (arr[i] > max_arr) {
             max_arr = arr[i];
             max_index = i;
