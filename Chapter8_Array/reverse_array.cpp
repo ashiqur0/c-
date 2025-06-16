@@ -3,22 +3,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int linearSsearch(int arr[], int target, int size) {
-    for (int i = 0; i < size; i++) {
-        if (arr[i] == target) {
-            return i;
-        }
+void rerverseArray(int arr[], int size) {
+    for (int i = 0; i < size / 2; i++) {
+        int temp = arr[i];
+        arr[i] = arr[size - i - 1];
+        arr[size - i - 1] = temp;
     }
-    return -1;
 }
 
 int main() {
 
-    int arr[] = {4, 2, 7, 8, 1, 2, 5};
+    int arr[] = {1, 2, 3, 4, 5, 6, 7};
     int size = sizeof(arr) / sizeof(arr[0]);
-    int target = 5;
     
-    cout << linearSsearch(arr, target, size) << endl;
+    rerverseArray(arr, size);
+
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " " ;
+    }
+
+    cout << endl;
 
   return 0;
 }
