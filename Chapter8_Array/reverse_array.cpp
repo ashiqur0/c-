@@ -1,4 +1,4 @@
-// Array : Reverse array
+// Array : Reverse array [Two Pointer Approach]
 
 #include <bits/stdc++.h>
 using namespace std;
