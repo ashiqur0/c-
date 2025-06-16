@@ -9,9 +9,10 @@ int main() {
     int size = 6;
     int largest = INT_MIN;
     for(int i = 0; i < size; i++) {
-        if(nums[i] > largest) {
-            largest = nums[i];
-        }
+        // if(nums[i] > largest) {
+        //     largest = nums[i];
+        // }
+        largest = max(largest, nums[i]);
     }
 
     cout << largest << endl;
