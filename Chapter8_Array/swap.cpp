@@ -28,7 +28,7 @@ int main() {
 
     swap_max_min(arr, size);
     for (int i = 0; i < size; i++) {
-        cout << arr[i] << " ";
+        cout << arr[i] << " ";  // output : 6 2 3 4 5 1
     }
     cout << endl;
 
