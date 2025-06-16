@@ -1,4 +1,4 @@
-// Array : Pass by reference
+// Array : Pass by reference (address / pointer)
 
 #include <bits/stdc++.h>
 using namespace std;
