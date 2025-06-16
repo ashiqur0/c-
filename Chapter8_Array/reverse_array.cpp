@@ -1,4 +1,4 @@
-// Array : Linear search algorithm : Time complexity O(n)
+// Array : Reverse array
 
 #include <bits/stdc++.h>
 using namespace std;
