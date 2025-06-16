@@ -5,8 +5,8 @@ using namespace std;
 
 void changeArray(int arr[], int size) {
     for (int i = 0; i < size; i++) {
-        arr[i] *= 2;// নতুন কোনো array তৈরী হয়না।
-    }               // main array address এর উপর কাজ করা হয় 
+        arr[i] *= 2; // নতুন কোনো array তৈরী হয়না।
+    }                // main array address এর উপর কাজ করা হয় 
 }
 
 int main() {
