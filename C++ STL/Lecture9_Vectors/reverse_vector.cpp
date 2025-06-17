@@ -1,4 +1,4 @@
-// Array : HW-2 Reverse vector using Pass by reference Function
+// Vector : HW-2 Reverse vector using Pass by reference Function
 
 #include <iostream>
 #include <vector>
