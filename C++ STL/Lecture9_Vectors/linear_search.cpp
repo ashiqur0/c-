@@ -1,4 +1,4 @@
-// Array : HW-1 Linear Search on vector
+// Vector : HW-1 Linear Search on vector
 
 #include <iostream>
 #include <vector>
