@@ -1,5 +1,5 @@
 /*
-vector : Declare Different Type of vectors
+vector : Declare Different Types of vector
 */
 
 #include <iostream>
