@@ -1,5 +1,5 @@
 /*
-vector : Vector Functions
+Vector : Vector Functions
 */
 
 #include <iostream>
