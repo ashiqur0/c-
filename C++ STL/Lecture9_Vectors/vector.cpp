@@ -1,6 +1,6 @@
 /*
 Vector : All about vecto
-*/
+*/ 
 
 #include <iostream>
 #include <vector>                                   // Header file of vector
