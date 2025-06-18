@@ -35,7 +35,7 @@ int main() {
 
     marks.insert(marks.begin(), 100);               // insert at first index  
     marks.insert(marks.begin() + 1, 98);            // insert at specific index(2nd)
-    marks.insert(marks.end() - 1, 95);              // insert at last index
+    marks.insert(marks.end(), 95);              // insert at last index
 
     // Input value                                  
     cin >> student[3];                              // input using index
